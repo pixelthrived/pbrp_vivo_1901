@@ -8,13 +8,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from vivo 1901 device
 $(call inherit-product, device/vivo/1901/device.mk)
 
 PRODUCT_DEVICE := 1901
-PRODUCT_NAME := twrp_1901
+PRODUCT_NAME := pb_1901
 PRODUCT_BRAND := vivo
 PRODUCT_MODEL := vivo 1901
 PRODUCT_MANUFACTURER := vivo
